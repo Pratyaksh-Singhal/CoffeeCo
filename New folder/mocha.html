@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mocha</title>
+    <link rel="stylesheet" href="mocha.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"/>
+    <script src="project.js" defer></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <h1 class="logo" id="logo"><a href="D:\webtech\New folder\coffee.html" style="color: black;">CoffeeCo</a></h1>
+            <ul>
+                <li class="dropdown"><a href="#">Coffees<i class="fas fa-caret-down"></i></a>
+                    <ul>
+                        <li><a href="D:\webtech\New folder\espresso.html" style="color: black;">Espresso</a></li>
+                        <li><a href="D:\webtech\New folder\americano.html" style="color: black;">Americano</a></li>
+                        <li><a href="D:\webtech\New folder\frappuccino.html" style="color: black;">frappuccino</a></li>
+                        <li><a href="D:\webtech\New folder\cappucino.html" style="color: black;">cappuccino</a></li>
+                        <li><a href="D:\webtech\New folder\mocha.html" style="color: black;">Mocha</a></li>
+                        <li><a href="D:\webtech\New folder\ristretto.html" style="color: black;">Ristretto</a></li>
+                        <li><a href="D:\webtech\New folder\irish.html" style="color: black;">Irish</a></li>
+                        <li><a href="D:\webtech\New folder\affogato.html" style="color: black;">Affogato</a></li>
+                    </ul>
+            </li>
+            <li class="dropdown"><a href="#">Recipes<i class="fas fa-caret-down"></i></a>
+                <ul>
+                    <li><a href="D:\webtech\New folder\recipe_espresso.html" style="color: black;">Espresso</a></li>
+                    <li><a href="D:\webtech\New folder\recipe_americano.html" style="color: black;">Americano</a></li>
+                    <li><a href="D:\webtech\New folder\recipe_frappuccino.html" style="color: black;">frappuccino</a></li>
+                    <li><a href="D:\webtech\New folder\recipe_cappucino.html" style="color: black;">cappuccino</a></li>
+                    <li><a href="D:\webtech\New folder\recipe_mocha.html" style="color: black;">Mocha</a></li>
+                    <li><a href="D:\webtech\New folder\recipe_ristretto.html" style="color: black;">Ristretto</a></li>
+                    <li><a href="D:\webtech\New folder\recipe_irish.html" style="color: black;">Irish</a></li>
+                    <li><a href="D:\webtech\New folder\recipe_affogato.html" style="color: black;">Affogato</a></li>
+                </ul>
+        </li>
+            <li id="con"><a href="#contact">Contact Us</a></li>
+            </ul>
+            <div class="search" id="search-function">
+                <input type="search" name="search" id="searchBar" placeholder="Search" onkeypress="handleKeyPress(event)"><button onclick="handleSearch()"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg" style="vertical-align:middle;"><path d="M19.023,16.977c-0.513-0.488-1.004-0.997-1.367-1.384c-0.372-0.378-0.596-0.653-0.596-0.653l-2.8-1.337 C15.34,12.37,16,10.763,16,9c0-3.859-3.14-7-7-7S2,5.141,2,9s3.14,7,7,7c1.763,0,3.37-0.66,4.603-1.739l1.337,2.8 c0,0,0.275,0.224,0.653,0.596c0.387,0.363,0.896,0.854,1.384,1.367c0.494,0.506,0.988,1.012,1.358,1.392 c0.362,0.388,0.604,0.646,0.604,0.646l2.121-2.121c0,0-0.258-0.242-0.646-0.604C20.035,17.965,19.529,17.471,19.023,16.977z M9,14 c-2.757,0-5-2.243-5-5s2.243-5,5-5s5,2.243,5,5S11.757,14,9,14z"></path></svg></button>
+            </div>
+        </nav>
+    </header>
+
+    <div class="sidebar">
+        <ul> 
+            <li><a href="D:\webtech\New folder\espresso.html" style="color: black;">Espresso</a></li>
+            <li><a href="D:\webtech\New folder\americano.html" style="color: black;">Americano</a></li>
+            <li><a href="D:\webtech\New folder\frappuccino.html" style="color: black;">Frappuccino</a></li>
+            <li><a href="D:\webtech\New folder\cappuccino.html" style="color: black;">Cappuccino</a></li>
+            <li><a href="D:\webtech\New folder\mocha.html" style="color: black;">Mocha</a></li>
+            <li><a href="D:\webtech\New folder\ristretto.html" style="color: black;">Ristretto</a></li>
+            <li><a href="D:\webtech\New folder\irish.html" style="color: black;">Irish</a></li>
+            <li><a href="D:\webtech\New folder\affogato.html" style="color: black;">Affogato</a></li>
+        </ul>
+    </div>
+    <div class="typewriter">
+        <h1>Mocha</h1>
+    </div>
+    <div class="side">
+        <img id="photo" src="./YW0905H_cafe-mocha_s4x3.jpg" alt="">
+        <p>Mocha is another espresso based drink and another name for “mocaccino,” “mochaccino,” or “mochachino.” Unlike other espresso based drinks such as the latte, macchiato, and cappuccino, the exact origins of the cafe mocha is unknown.It is believed that the drink was originally named after the “mocha bean,” which is a type of coffee bean shipped from the port of Al Mokka in Yemen. These beans are now known as Arabica beans. These days, the name “mocha” doesn’t reference these specific coffee beans but rather indicating the presence of chocolate flavorings in the coffee.<br>
+            <br>
+        A cafe mocha is essentially a chocolate flavored variant of a cafe latte, or even a hot chocolate with shots of espresso in it. It is made up of espresso, milk, and chocolate. It can include one or two shots of espresso depending on taste preferences and traditionally is topped with milk foam, just like a latte. Unlike other coffee drinks, the mocha is a lot sweeter in taste and can be great for those who have a sweet tooth or enjoy a good dose of sugar.It is a very customizable drink in as many types of chocolate can be used. Depending on the place, a mocha can have chocolate syrup, dark chocolate, milk chocolate, or even white chocolate. Toppings can also be customizable with some people replacing the milk foam on top with whipped cream. </p>
+    </div>
+    <div class="below">
+        <p>It is a very customizable drink in as many types of chocolate can be used. Depending on the place, a mocha can have chocolate syrup, dark chocolate, milk chocolate, or even white chocolate. Toppings can also be customizable with some people replacing the milk foam on top with whipped cream. Some mochas can also have chocolate shavings or cinnamon added on top for extra decoration and taste.Just as any other espresso based drink, since espresso shots are the only coffee ingredient in the mocha, the caffeine is based on the amount of espresso it contains. According to Caffeine Content, espresso contains about 58-185 mg of caffeine and your cup of mocha can contain one or two espresso shots depending on your order. 
+        </p>
+
+        <ul>
+            <li><a href="https://en.wikipedia.org/wiki/Caff%C3%A8_mocha" style="color: black;">Learn More</a></li>
+            <li><a href="https://www.amazon.in/s?k=mocha+coffee&i=grocery&crid=19A0O1KZVAUX7&sprefix=moch%2Cgrocery%2C563&ref=nb_sb_ss_ts-doa-p_2_4" style="color: black;">Buy</a></li>
+            <li><a href="D:\webtech\New folder\recipe_mocha.html"style="color: black"> Recipe</a></li>
+        </ul>
+    </div>
+    <section id="contact">
+        <h1 class="h-Primary center heading" id="contact">Contact Us</h1>
+        <div id="contact-box">
+            <form action="https://formspree.io/f/xoqzpowr" method="post">
+                <div class="form-group">
+                    <h2 for="name">Name:</h2>
+                    <input type="text" name="name" id="name" placeholder="Enter your Name" required>
+                </div>
+                <div class="form-group">
+                    <h2 for="email">Email:</h2>
+                    <input type="email" name="email" id="email" placeholder="Enter your Email" required>
+                </div>
+                <div class="form-group">
+                    <h2 for="password">Password:</h2>
+                    <input type="Password" name="password" id="password" placeholder="Enter your Password" required>
+                </div>
+                <div class="form-group">
+                    <h2 for="message">Message:</h2>
+                    <textarea name="message" id="message" cols="30" rows="10" placeholder="Enter your Message" required></textarea>
+                </div>
+                <div class="form-group" id="submit">
+                    <input type="submit" class="btn">
+                </div>
+            </form>
+        </div>
+    </section>
+    <footer>
+        <div class="center"> Copyright&copy; Pratyaksh Singhal. All rights reserved!</div>
+    </footer>
+</body>
+</html>

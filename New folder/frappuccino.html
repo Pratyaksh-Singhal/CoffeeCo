@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Frappuccino</title>
+    <link rel="stylesheet" href="frappuccino.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"/>
+    <script src="project.js" defer></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <h1 class="logo" id="logo"><a href="D:\webtech\New folder\coffee.html" style="color: black;">CoffeeCo</a></h1>
+            <ul>
+                <li class="dropdown"><a href="#">Coffees<i class="fas fa-caret-down"></i></a>
+                    <ul>
+                        <li><a href="D:\webtech\New folder\espresso.html" style="color: black;">Espresso</a></li>
+                        <li><a href="D:\webtech\New folder\americano.html" style="color: black;">Americano</a></li>
+                        <li><a href="D:\webtech\New folder\frappuccino.html" style="color: black;">frappuccino</a></li>
+                        <li><a href="D:\webtech\New folder\cappucino.html" style="color: black;">cappuccino</a></li>
+                        <li><a href="D:\webtech\New folder\mocha.html" style="color: black;">Mocha</a></li>
+                        <li><a href="D:\webtech\New folder\ristretto.html" style="color: black;">Ristretto</a></li>
+                        <li><a href="D:\webtech\New folder\irish.html" style="color: black;">Irish</a></li>
+                        <li><a href="D:\webtech\New folder\affogato.html" style="color: black;">Affogato</a></li>
+                    </ul>
+            </li>
+            <li class="dropdown"><a href="#">Recipes<i class="fas fa-caret-down"></i></a>
+                <ul>
+                    <li><a href="D:\webtech\New folder\recipe_espresso.html" style="color: black;">Espresso</a></li>
+                    <li><a href="D:\webtech\New folder\recipe_americano.html" style="color: black;">Americano</a></li>
+                    <li><a href="D:\webtech\New folder\recipe_frappuccino.html" style="color: black;">frappuccino</a></li>
+                    <li><a href="D:\webtech\New folder\recipe_cappucino.html" style="color: black;">cappuccino</a></li>
+                    <li><a href="D:\webtech\New folder\recipe_mocha.html" style="color: black;">Mocha</a></li>
+                    <li><a href="D:\webtech\New folder\recipe_ristretto.html" style="color: black;">Ristretto</a></li>
+                    <li><a href="D:\webtech\New folder\recipe_irish.html" style="color: black;">Irish</a></li>
+                    <li><a href="D:\webtech\New folder\recipe_affogato.html" style="color: black;">Affogato</a></li>
+                </ul>
+        </li>
+            <li id="con"><a href="#contact">Contact Us</a></li>
+            </ul>
+            <div class="search" id="search-function">
+                <input type="search" name="search" id="searchBar" placeholder="Search" onkeypress="handleKeyPress(event)"><button onclick="handleSearch()"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg" style="vertical-align:middle;"><path d="M19.023,16.977c-0.513-0.488-1.004-0.997-1.367-1.384c-0.372-0.378-0.596-0.653-0.596-0.653l-2.8-1.337 C15.34,12.37,16,10.763,16,9c0-3.859-3.14-7-7-7S2,5.141,2,9s3.14,7,7,7c1.763,0,3.37-0.66,4.603-1.739l1.337,2.8 c0,0,0.275,0.224,0.653,0.596c0.387,0.363,0.896,0.854,1.384,1.367c0.494,0.506,0.988,1.012,1.358,1.392 c0.362,0.388,0.604,0.646,0.604,0.646l2.121-2.121c0,0-0.258-0.242-0.646-0.604C20.035,17.965,19.529,17.471,19.023,16.977z M9,14 c-2.757,0-5-2.243-5-5s2.243-5,5-5s5,2.243,5,5S11.757,14,9,14z"></path></svg></button>
+            </div>
+        </nav>
+    </header>
+
+    <div class="sidebar">
+        <ul>
+            <li><a href="D:\webtech\New folder\espresso.html" style="color: black;">Espresso</a></li>
+            <li><a href="D:\webtech\New folder\americano.html" style="color: black;">Americano</a></li>
+            <li><a href="D:\webtech\New folder\frappuccino.html" style="color: black;">Frappuccino</a></li>
+            <li><a href="D:\webtech\New folder\cappuccino.html" style="color: black;">Cappuccino</a></li>
+            <li><a href="D:\webtech\New folder\mocha.html" style="color: black;">Mocha</a></li>
+            <li><a href="D:\webtech\New folder\ristretto.html" style="color: black;">Ristretto</a></li>
+            <li><a href="D:\webtech\New folder\irish.html" style="color: black;">Irish</a></li>
+            <li><a href="D:\webtech\New folder\affogato.html" style="color: black;">Affogato</a></li>
+        </ul>
+    </div>
+    <div class="typewriter">
+        <h1>Frappuccino</h1>
+    </div>
+    <div class="side">
+        <img id="photo" src="./globalcoffee.jpeg" alt="">
+        <p>A Frappuccino is a trademarked blended iced coffee drink from Starbucks. This drink has a coffee or crème base that is blended with ice and ingredients like flavors, syrups, spices, and whipped cream. You can buy a Frappuccino at Starbucks, or you can purchase a bottled version sold at gas stations, grocery stores, vending machines, and more.Although Starbucks trademarked Frappuccinos, they were first trademarked and sold at The Coffee Connection, one of George Howell’s Massachusetts coffee chains. In 1994, Starbucks purchased this chain, giving them rights to the Frappuccino.<br>
+            <br>
+        Unfortunately, Frappuccinos are certainly not the healthiest coffee option you can choose. Since they are loaded with crème, sugar, and syrup, Frappuccinos come with a lot of calories. Drinking a Frappuccino on occasion, however, won’t destroy your diet. You certainly shouldn’t drink it every day, nonetheless.The traditional Frappuccino does have blended coffee in it. In many ways, it is similar to ice coffee, especially because it contains brewed coffee. The traditional Frappuccino is made with a caffeinated Frappuccino roast. Because of how many other ingredients come in this drink, it is a favorite among those who don’t like a strong coffee flavor.</p>
+    </div>
+    <div class="below">
+        <p>Frappuccinos are commonly mistaken for a variety of other coffee drinks, one of which being lattes. Let’s take a closer glance at the difference between a Frappuccino and a latte.Surprisingly, you can get a Frappuccino without coffee. Starbucks sells options that have a coffee-free base. This drink is called the Frappuccino Blended Crème. The Mocha Crème, Vanilla Bean Crème, and Caramel Crème are just a few examples. These options will have very little caffeine if any at all.The traditional Frappuccino does have blended coffee in it. In many ways, it is similar to ice coffee, especially because it contains brewed coffee. The traditional Frappuccino is made with a caffeinated Frappuccino roast. Because of how many other ingredients come in this drink, it is a favorite among those who don’t like a strong coffee flavor.For the caffeine-sensitive, there are decaffeinated options. You will need to request this specifically whenever you go to Starbucks. For a decaffeinated Frappuccino, the barista will use decaffeinated espresso shots in place of the Frappuccino roast instant coffee. This creates a decaffeinated version of this favorite.</p>
+
+        <ul>
+            <li><a href="https://en.wikipedia.org/wiki/Frappuccino" style="color: black;">Learn More</a></li>
+            <li><a href="https://www.starbucks.com/menu/drinks/frappuccino-blended-beverages" style="color: black;">Buy</a></li>
+            <li><a href="D:\webtech\New folder\recipe_frappuccino.html"style="color: black"> Recipe</a></li>
+        </ul>
+    </div>
+    <section id="contact">
+        <h1 class="h-Primary center heading" id="contact">Contact Us</h1>
+        <div id="contact-box">
+            <form action="https://formspree.io/f/xoqzpowr" method="post">
+                <div class="form-group">
+                    <h2 for="name">Name:</h2>
+                    <input type="text" name="name" id="name" placeholder="Enter your Name" required>
+                </div>
+                <div class="form-group">
+                    <h2 for="email">Email:</h2>
+                    <input type="email" name="email" id="email" placeholder="Enter your Email" required>
+                </div>
+                <div class="form-group">
+                    <h2 for="password">Password:</h2>
+                    <input type="Password" name="password" id="password" placeholder="Enter your Password" required>
+                </div>
+                <div class="form-group">
+                    <h2 for="message">Message:</h2>
+                    <textarea name="message" id="message" cols="30" rows="10" placeholder="Enter your Message" required></textarea>
+                </div>
+                <div class="form-group" id="submit">
+                    <input type="submit" class="btn">
+                </div>
+            </form>
+        </div>
+    </section>
+    <footer>
+        <div class="center"> Copyright&copy; Pratyaksh Singhal. All rights reserved!</div>
+    </footer>
+
+</body>
+</html>

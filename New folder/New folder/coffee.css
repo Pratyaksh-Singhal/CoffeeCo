@@ -1,0 +1,56 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+nav{
+    background:rgb(236, 228, 228);
+    height: 120px;
+    width: 100%;
+}
+label.logo{
+    font-family: 'Brush Script MT', cursive;;
+    color: black;
+    font-size: 40px;
+    line-height: 23px;
+    padding:0 100px;
+    font-weight: bold;
+}
+
+nav ul{
+    float: left;
+    margin-right: 20px;
+}
+
+nav ul li{
+    display: inline-block;
+    font-family: cursive;
+    line-height: 80px;
+    margin: 0 5px;
+}
+
+nav ul li a{
+    color:black;
+    font-size: 15px;
+    padding:7px 13px;
+    border-radius:3px;
+    text-transform:uppercase;
+}
+nav div{
+    float:right;
+    margin: 18px 67px;
+    padding: 8px;
+}
+nav input{
+    width: 90%;
+    height: 31px;
+    padding: 15px;
+    border: 6px;
+    border-radius: 9px;
+}
+a:hover{
+    background: rgb(153, 153, 157);
+    transition: .5s;
+}

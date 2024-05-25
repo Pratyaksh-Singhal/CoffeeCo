@@ -1,0 +1,47 @@
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    background-color: #333;
+  }
+  
+  nav li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  
+  nav li a {
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+  }
+  
+  nav li:hover {
+    background-color: #555;
+  }
+  
+  nav .dropdown ul {
+    display: none;
+    position: absolute;
+    background-color: #555;
+    padding: 0;
+    margin: 0;
+  }
+  
+  nav .dropdown:hover ul {
+    display: block;
+  }
+  
+  nav .dropdown ul li {
+    display: block;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav .dropdown ul li a {
+    display: block;
+    color: #fff;
+    padding: 10px;
+    text-decoration: none;
+  }
